@@ -34,6 +34,7 @@ public class DownloadByWget {
 		action.perform();
 		System.out.println("perform the action");
 		wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		System.out.println("test GitHub");
 		
 		
 		String wget_command = "cmd /c wget -P D:\\test --no-check-certificate " + sourceURL;
